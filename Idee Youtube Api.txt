@@ -1,0 +1,4 @@
+I need a list of all my subscriptions. 
+Then I need a list of all the videos of those my subscriptions or at least of all the titles 
+Then I want to search through them maybe with Regex to get all matching videos
+Then I want a list of all the videos and channel names to get the 
