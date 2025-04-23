@@ -101,8 +101,9 @@ class YouTubeAPIManager:
             print(f"An error occurred while saving to file: {e}")
 
 def main():
+	with open('config.json', 'r') as file: config = json.load(file)
     # Replace with your API key
-    API_KEY = 'YOUR_API_KEY'
+    API_KEY = config['API_KEY']
     CHANNEL_ID = 'UCn3bePAgpf2LnV2jN3i5yew'  # Replace with your channel ID
     
     # Initialize the YouTube API manager
